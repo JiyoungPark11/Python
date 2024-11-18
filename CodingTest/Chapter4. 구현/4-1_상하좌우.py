@@ -5,7 +5,7 @@
 print("N을 입력하세요: ")
 n = int(input())
 x, y = 1, 1
-print("이동계획을 입력하세요: ")
+print("이동계획을 입력하세요(L, R, U, D 중): ")
 plans = input().split()
 
 dx = [0, 0, -1, 1]
